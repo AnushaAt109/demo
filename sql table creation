@@ -1,13 +1,4 @@
--- DROP TABLES
-
-DROP TABLE IF EXISTS employees CASCADE;
-DROP TABLE IF EXISTS shops CASCADE;
-DROP TABLE IF EXISTS locations CASCADE;
-DROP TABLE IF EXISTS suppliers CASCADE;
-
-
--- CREATE TABLES ========================================
-
+-- CREATE TABLES ==========
 -- Create employees table 
 CREATE TABLE employees (
     employee_id INT PRIMARY KEY,
@@ -57,7 +48,7 @@ CREATE TABLE suppliers (
 );
 
 
--- INSERT INTO TABLES ====================================
+-- INSERT INTO TABLES ========
 
 -- Insert first two entries into employees table
 -- Set the coffeeshop_id to NULL for now as we have not inserted the coffeeshop values into the shops table yet
